@@ -1,0 +1,35 @@
+.todo-items {
+  padding: 1rem 1rem 1.5rem 1rem;
+
+  background-color: blue;
+  color: white;
+  width: 150px;
+  height: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  justify-content: center;
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.todo {
+  display: flex;
+}
+.crossbutton {
+  width: 50px;
+  height: 50px;
+  padding: 1rem 1rem 1.5rem 1rem;
+
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  margin: 10px 10px 10px -10px;
+  justify-content: center;
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}

@@ -1,0 +1,91 @@
+.datapool {
+  display: flex;
+}
+
+.piechart {
+  align-items: center;
+  justify-content: center;
+  top: -15%;
+  left: 40vw;
+  position: absolute;
+}
+
+.size {
+  display: flex;
+  justify-content: center;
+  top: 10%;
+  left: 10vw;
+  position: absolute;
+  background-color: white;
+  height: 10%;
+  width: 11%;
+  padding: 1rem 1rem 0rem 1rem;
+  box-shadow: 0px 4px 4px rgba(246, 245, 245, 0.41);
+  border-radius: 3%;
+}
+
+.data__pool {
+  position: absolute;
+  /* left: 200px;
+  right: 30px;
+  top: 150px;
+  bottom: 64px;
+  height: 810px;
+  width: 1110px; */
+  width: 80vw;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  left: 300px;
+  top: 20%;
+
+  height: 80vh;
+
+  background: #dde2ea;
+  box-shadow: 0px 6px 6px rgba(239, 236, 236, 0.25);
+  /* box-shadow: 10px 10px 33px -9px rgba(245, 245, 245, 0.75); */
+}
+.add {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 25%;
+  left: 10vw;
+  position: absolute;
+}
+.heading {
+  padding-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.sendinput {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  background: white;
+  width: 200px;
+  box-shadow: 0px 6px 6px rgba(239, 236, 236, 0.25);
+  border-radius: 2%;
+}
+.sendbutton {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 10%;
+  box-shadow: 0px 6px 6px rgba(239, 236, 236, 0.25);
+}
+.add__container {
+  display: flex;
+  margin-top: 22%;
+  justify-content: initial;
+}
+.add__first {
+  background-color: white;
+  border-radius: 2%;
+  margin: 3%;
+  height: 30vh;
+  width: 30vw;
+}
